@@ -1,0 +1,16 @@
+names:
+- cardboard
+- glass
+- metal
+- paper
+- plastic
+nc: 5
+roboflow:
+  license: Public Domain
+  project: tvm-waste-detection-dataset
+  url: https://universe.roboflow.com/waste-detection-bawwl/tvm-waste-detection-dataset/dataset/1
+  version: 1
+  workspace: waste-detection-bawwl
+test: ../test/images
+train: ../train/images
+val: ../valid/images
