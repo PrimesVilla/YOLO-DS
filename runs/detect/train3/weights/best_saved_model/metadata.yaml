@@ -1,0 +1,18 @@
+description: Ultralytics best model trained on /content/YOLO-DS/TVM-Waste-Detection-Dataset-1/data.yaml
+author: Ultralytics
+date: '2024-06-18T00:44:02.822716'
+version: 8.2.35
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: cardboard
+  1: glass
+  2: metal
+  3: paper
+  4: plastic
